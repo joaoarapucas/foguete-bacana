@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+/* gerei com IA pra fazer gracinha !!!*/
+h1 {
+    display: inline-block; /* Necessário para o giro funcionar corretamente */
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 3rem;
+    
+    /* Chamada da animação: nome | duração | timing | repetição */
+    animation: balancoEcores 3s ease-in-out infinite alternate;
+}
+
+@keyframes balancoEcores {
+    0% {
+        transform: rotate(-15deg);
+        color: #ff0000; /* Vermelho */
+    }
+    50% {
+        color: #00ff00; /* Verde no meio do caminho */
+    }
+    100% {
+        transform: rotate(15deg);
+        color: #0000ff; /* Azul */
+    }
+}
