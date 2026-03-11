@@ -31,3 +31,7 @@ projeto de extensão dos alunos do Senac com o objetivo de lançar um foguete gu
 ### web
 
 <p> código-fonte do site do nosso projeto !!! </p>
+
+## atualizações
+
+<p> esse documento foi atualizado pela última vez no dia 11/03/2026 </p>
